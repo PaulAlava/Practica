@@ -7,7 +7,7 @@ app = Flask(__name__)
 config = {
     'host': 'localhost',
     'user': 'root',
-    'password': '',
+    'password': '12345678',
     'database': 'veterinaria'
 }
 
