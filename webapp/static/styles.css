@@ -1,37 +1,46 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f8ff;
     text-align: center;
+    padding: 40px;
 }
+
 h1 {
-    color: #333;
+    color: #0277bd;
 }
+
 form {
-    background-color: #fff;
-    padding: 20px;
-    margin: 50px auto;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    padding: 25px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
     display: inline-block;
 }
+
 label {
     display: block;
     margin-top: 10px;
+    font-weight: bold;
 }
-input[type="text"],
-input[type="number"] {
+
+input[type="text"], input[type="number"] {
+    width: 250px;
     padding: 8px;
-    width: 200px;
-    margin-top: 5px;
+    margin-top: 4px;
 }
+
 input[type="submit"] {
-    background-color: #5cb85c;
+    background-color: #43a047;
     color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
+    margin-top: 20px;
     cursor: pointer;
 }
+
 input[type="submit"]:hover {
-    background-color: #4cae4c;
+    background-color: #388e3c;
 }
+
